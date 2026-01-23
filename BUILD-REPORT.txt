@@ -1,0 +1,37 @@
+======================================================================
+RELATÓRIO DE BUILD OTIMIZADO - SOGNOLABS
+======================================================================
+
+Total de arquivos copiados: 168
+Tamanho original: 45.51 MB
+Tamanho do build: 8.86 MB
+Economia: 80.5%
+
+PÁGINAS INCLUÍDAS:
+----------------------------------------------------------------------
+  - about-us.html
+  - contact.html
+  - contact.php
+  - index.html
+  - it-services.html
+  - mobile-development.html
+  - newsletter.php
+  - teamcontact.php
+  - web-development.html
+  - workform.php
+
+ARQUIVOS POR TIPO:
+----------------------------------------------------------------------
+  .jpg           :   61 arquivo(s)
+  .png           :   56 arquivo(s)
+  .js            :   11 arquivo(s)
+  .css           :    8 arquivo(s)
+  .html          :    6 arquivo(s)
+  .svg           :    6 arquivo(s)
+  .eot           :    4 arquivo(s)
+  .woff          :    4 arquivo(s)
+  .woff2         :    4 arquivo(s)
+  .php           :    4 arquivo(s)
+  .ttf           :    4 arquivo(s)
+
+======================================================================
