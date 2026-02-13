@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const errorTimeout = document.getElementById('err-timedout');
     
     // API endpoint
-    const API_URL = 'https://api.ativhub.sognolabs.org/functions/v1/contact';
+    const API_URL = 'https://uwvijftcdcdzavmnkydp.supabase.co/functions/v1/send-contact';
+    const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3dmlqZnRjZGNkemF2bW5reWRwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYyMjY2MTgsImV4cCI6MjA0MTgwMjYxOH0.XT-7KOfBCEalizAXJAtZnWVRKq5RZrGUzvt0qdf9jm8';
     
     if (!form) return;
     
@@ -54,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + API_KEY
                 },
                 body: JSON.stringify({
                     name: name,
